@@ -1,0 +1,37 @@
+## Problema imaginario en Java: Análisis de texto
+
+---- Objetivo: ----
+ Desarrollar un programa en Java que analice un texto proporcionado por el usuario y extraiga información relevante.
+ El programa debe utilizar los siguientes conceptos:
+
+1. Métodos útiles para convertir un String en un Array:**
+- `String.split(String regex)`: Divide el String en un Array de Strings usando un separador especificado.
+- `Arrays.asList(String... strings)`: Convierte un array de Strings en un ArrayList.
+
+2. Inmutabilidad:
+- Utilizar la clase `String` inmutable para almacenar datos que no deben cambiar.
+- Evitar modificar Strings directamente y crear nuevos Strings en su lugar.
+
+3. Validación de String:
+-`String.isEmpty()`: Comprueba si un String está vacío.
+-`String.isBlank()`: Comprueba si un String está vacío o solo contiene espacios en blanco.
+-`String.matches(String regex)`: Verifica si un String coincide con una expresión regular.
+
+4. Métodos importantes del objeto String:
+- `String.length()`: Obtiene la longitud del String.
+- `String.charAt(int index)`: Obtiene el carácter en la posición especificada.
+- `String.substring(int startIndex, int endIndex)`: Obtiene un subconjunto del String.
+- `String.toLowerCase()`: Convierte el String a minúsculas.
+- `String.toUpperCase()`: Convierte el String a mayúsculas.
+- `String.trim()`: Elimina los espacios en blanco al principio y al final del String.
+
+Descripción del problema:
+
+El programa debe solicitar al usuario que ingrese un texto. Luego, debe analizar el texto y realizar las siguientes tareas:
+
+1. Contar el número de palabras en el texto.
+2. Identificar la palabra más larga y la palabra más corta.
+3. Contar el número de veces que aparece cada letra en el texto.
+4. Convertir el texto a minúsculas y mayúsculas.
+5. Eliminar los espacios en blanco al principio y al final del texto.
+6. Validar si el texto contiene una palabra o frase específica.
